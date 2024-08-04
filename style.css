@@ -1,5 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mukta:wght@400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.burger_item {
+  height: 2px;
+  width: 20px;
+  background-color: #fff;
+}
+
+.author {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.article_text {
+  margin: 10px 0;
+}
+
+.my_dog img {
+  width: 80%;
+  height: 400px;
+  object-position: center;
+  margin: 30px 0;
 }
