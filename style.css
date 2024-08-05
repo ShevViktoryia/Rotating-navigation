@@ -27,10 +27,37 @@ header {
   justify-content: center;
 }
 
+nav {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #1b1919;
+  display: flex;
+  align-items: flex-end;
+  transform: translateX(-100%);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger_menu {
+  position: relative;
+  right: -20px;
+  bottom: -20px;
+}
+
 .burger_list {
+  height: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
